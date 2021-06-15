@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        width: 550px;
+    }
+    .container {
+        background: turquoise;
+        width: 180px;
+        height: 180px;
+    }
+    .element1 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: papayawhip;
+        margin: 0;
+    }
+    .element2 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: papayawhip;
+        margin: 60px 0;
+    }
+    .element3 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: papayawhip;
+        margin: 120px 0;
+    }
+
+    .element4 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 0 60px;
+    }
+    .element5 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 60px 60px;
+    }
+    .element6 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 120px 60px;
+    }
+    .element7 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 0 0 0 auto;
+    }
+    .element8 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 60px 0 0 auto;
+    }
+    .element9 {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        /* --- */
+        background: pink;
+        margin: 120px 0 0 auto;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="element1">Top left</div>
+        </div>
+        <div class="container">
+            <div class="element2">Center left</div>
+        </div>
+        <div class="container">
+            <div class="element3">Bottom left</div>
+        </div>
+        <div class="container">
+            <div class="element4">Top center</div>
+          </div>
+        <div class="container">
+          <div class="element5">Center center</div>
+        </div>  
+        <div class="container">
+          <div class="element6">Bottom center</div>
+        </div>
+        <div class="container">
+          <div class="element7">Top right</div>
+        </div>
+        <div class="container">
+          <div class="element8">Center right</div>
+        </div>
+        <div class="container">
+          <div class="element9">Bottom right</div>
+    </div>
+</body>
+</html>
